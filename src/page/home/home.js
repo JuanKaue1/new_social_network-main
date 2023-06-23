@@ -72,7 +72,7 @@ const Home = () => {
     // Display success message in modal
     setModalMessage('Post created!');
     setIsModalOpen(true);
-    closeAfterTimeout(3000); 
+    closeAfterTimeout(1500); 
   };
 
   const updatePost = (event) => {
@@ -97,7 +97,7 @@ const Home = () => {
     // Display success message in modal
     setModalMessage('Post updated!');
     setIsModalOpen(true);
-    closeAfterTimeout(3000);
+    closeAfterTimeout(1500);
   };
 
   const editPost = (index) => {
@@ -132,7 +132,7 @@ const Home = () => {
     // Display success message in modal
     setModalMessage('Post deleted!');
     setIsModalOpen(true);
-    closeAfterTimeout(3000);
+    closeAfterTimeout(1500);
   };
 
   const formatTimestamp = (timestamp) => {
@@ -165,7 +165,7 @@ const Home = () => {
     // Open the modal with a specified message
     setModalMessage(message);
     setIsModalOpen(true);
-    closeAfterTimeout(3000);
+    closeAfterTimeout(1500);
   };
 
   const closeModal = () => {
