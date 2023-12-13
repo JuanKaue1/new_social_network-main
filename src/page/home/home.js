@@ -185,7 +185,7 @@ const Home = () => {
     <div>
       <Componentes_Header />
       <form onSubmit={editingPost !== null ? updatePost : addPost}>
-        <h2>React agenda</h2>
+        <h2>React Agenda</h2>
         <div className="container">
           <label className="title">
             <p>Title</p>
